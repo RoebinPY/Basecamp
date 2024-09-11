@@ -1,0 +1,5 @@
+num = input("give 4 digit number: ")
+int(num)
+total = int(num[0])+int(num[1])+int(num[2])+int(num[3])
+add = f"{num[0]} + {num[1]} + {num[2]} + {num[3]}=" + str(total)
+print(add)

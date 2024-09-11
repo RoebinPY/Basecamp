@@ -1,0 +1,6 @@
+price = input("Please enter the cost (format 'Cost of the meal: xy.wz'): ")
+price = float(price[17:])
+tip = round((price * 0.15), 3)
+tax = round((price*0.21), 3)
+total = round((price + tip + tax), 3)
+print(f"Tax: {tax}, Tip: {tip}, Total: {total}")
